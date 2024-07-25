@@ -2,18 +2,24 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Welcome</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <h1>Hello there</h1>
     <h2>I make cool apps like these. Check them out!</h2>
-    <div class="appcontainer">
-      <div class="app" id="left">
-        <a href="https://github.com/tidbyt/community/tree/main/apps/underwaterclock" class="appname" target="_blank">Underwater Clock</a>
+    <div class="flex-container">
+      <div onmouseover="appMouseOver(this.id)" class="app" id="underwaterclock">
+        <img src="underwater_clock.gif" alt="A pixelated animation of a clock underwater">
+        <div class="apptext">
+          <a href="https://github.com/tidbyt/community/tree/main/apps/underwaterclock" class="appname" target="_blank">Underwater Clock</a>
+        </div>
       </div>
-      <div class="app" id="right">
-        <p class="appname">Workout Builder</p>
+      <div class="app">
+        <div class="apptext">
+          <a class="appname">Workout Builder</a>
+        </div>
       </div>
     </div>
   </body>
