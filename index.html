@@ -2,7 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script>
+      const clockApp = document.getElementById("underwaterclock")
+      clockApp.onmouseover = document.getElementById("underwaterclock").style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))"
+    </script>
     <title>Welcome</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -10,13 +13,14 @@
     <h1>Hello there</h1>
     <h2>I make cool apps like these. Check them out!</h2>
     <div class="flex-container">
-      <div onmouseover="appMouseOver(0)" class="app" id="underwaterclock">
+      <div class="app">
         <img src="underwater_clock.gif" alt="A pixelated animation of a clock underwater">
-        <div class="apptext">
+        <div class="apptext" id="underwaterclock">
           <a href="https://github.com/tidbyt/community/tree/main/apps/underwaterclock" class="appname" target="_blank">Underwater Clock</a>
         </div>
       </div>
       <div class="app">
+        <img src="underwater_clock.gif" alt="A pixelated animation of a clock underwater">
         <div class="apptext">
           <a class="appname">Workout Builder</a>
         </div>
