@@ -9,7 +9,7 @@ h1 {
 }
 .h1-shadow {
   position: absolute;
-  opacity: 20%;
+  opacity: 19%;
   filter: blur(1px);
   bottom: 90px;
   left: 10px;
