@@ -17,6 +17,7 @@ h1 {
   margin-bottom: -60px;
 }
 .h1-container {
+  position: relative;
   background-color: mintcream;
   margin: -10px 0px 0px;
   border: 10px inset lavender;
