@@ -5,12 +5,26 @@ h1 {
   text-align: center;
   font-size: 50px;
   color: LightSeaGreen;
+  z-index: 10;
+}
+.h1-shadow {
+  position: absolute;
+  opacity: 20%;
+  filter: blur(1px);
+  bottom: 90px;
+  left: 10px;
+  z-index: 1;
+  margin-bottom: -60px;
+}
+.h1-container {
   background-color: mintcream;
-  padding: 40px 0px 30px;
-  margin: -10px -20px 0px;
+  margin: -10px 0px 0px;
+  border: 10px inset lavender;
+  z-index: -5;
 }
 h2 {
   text-align: center;
+  font-size: 25px;
   color: steelblue;
 }
 /* @media screen and (max-width: 900px) {
