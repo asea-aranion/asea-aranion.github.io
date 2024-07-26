@@ -2,11 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
-    <script>
-      const clockApp = document.getElementsByClassName("apptext")[0];
-      console.log(clockApp)
-      clockApp.onmouseover = clockApp?.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))";
-    </script>
     <title>Welcome</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -16,7 +11,7 @@
     <div class="flex-container">
       <div class="app">
         <img src="underwater_clock.gif" alt="A pixelated animation of a clock underwater">
-        <div class="apptext" id="underwaterclock">
+        <div class="apptext" id="underwaterclock" onmouseover="document.getElementById('underwaterclock').style.backgroundPosition = 'bottom center'">
           <a href="https://github.com/tidbyt/community/tree/main/apps/underwaterclock" class="appname" target="_blank">Underwater Clock</a>
         </div>
       </div>
