@@ -24,6 +24,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
+  z-index: -10;
 }
 .app {
   flex-basis: 450px;
@@ -31,17 +32,19 @@ h2 {
   position: relative;
   z-index: -2;
   margin: 10px;
+  z-index: 1;
 }
 img {
   z-index: -1;
   height: 100%;
   width: 100%;
   border-radius: 20px;
+  z-index: inherit;
 }
 .apptext {
   z-index: 5;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
-  transition: background-image 2s;
+  transition: background-image 2s linear;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -49,8 +52,20 @@ img {
   height: 100%;
   border-radius: 20px;
 }
-.apptext:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 1));
+a:link {
+    color: darkturquoise;
+}
+a:visited {
+    color: darkslateblue;
+}
+a:active {
+    color: darkturquoise;
+}
+a:hover {
+  color: blueviolet;
+}
+.flex-container:hover .apptext {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black, black);
 }
 .appname {
   font-size: 20px;
