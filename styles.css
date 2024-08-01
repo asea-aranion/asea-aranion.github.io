@@ -43,17 +43,23 @@ h2 {
 }
 .app {
   flex-basis: 500px;
+  height: 300px;
   box-sizing: border-box;
   position: relative;
   z-index: 1;
   margin: 10px;
-  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.img-container {
+  height: 80%;
+  z-index: inherit;
+  position: relative;
 }
 img {
   z-index: -1;
   width: 100%;
-  height: inherit;
-  border-radius: 20px;
+  height: 100%;
   z-index: inherit;
   position: relative;
   object-fit: cover;
@@ -62,18 +68,21 @@ img {
 .app:hover .apptext {
   background-position-y: bottom;
 }
+.app:hover .appcover {
+  top: 0px;
+}
 .app:hover .appdesc {
-  top: 200px;
+  top: 82%;
 }
 .app:hover .appname {
-  bottom: 40px;
+  bottom: 15%;
 }
 .apptext {
-  z-index: 5;
-  background-image: linear-gradient(transparent, black);
+  z-index: 10;
+  /* background-image: linear-gradient(transparent, black);
   background-size: 100% 250%;
   background-position: left top;
-  transition: background-position 0.5s linear;
+  transition: background-position 0.3s ease-in; */
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -82,11 +91,21 @@ img {
   border-radius: 20px;
   overflow: hidden;
 }
+.appcover {
+  z-index: 4;
+  background-color: darkcyan;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  transition: top 0.3s ease-in-out;
+}
 .appname {
   font-size: 20px;
   position: absolute;
-  bottom: 20px;
-  transition: bottom 0.5s linear;
+  bottom: 6%;
+  transition: bottom 0.3s ease-in-out;
   left: 20px;
   font-weight: bold;
   z-index: inherit;
@@ -96,19 +115,19 @@ img {
   font-weight: bold;
   color: lightcyan;
   position: absolute;
-  top: 240px;
-  transition: top 0.5s linear;
+  top: 130%;
+  transition: top 0.3s ease-in-out;
   left: 20px;
   z-index: inherit;
 }
 a:link {
-    color: darkturquoise;
+    color: darkslategray;
 }
 a:visited {
     color: lightsteelblue;
 }
 a:active {
-    color: darkturquoise;
+    color: darkslategray;
 }
 a:hover {
   color: blueviolet;
