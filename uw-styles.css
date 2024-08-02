@@ -26,7 +26,7 @@ a {
     text-align: center;
     align-content: center;
     padding: 25px 10px;
-    margin: 10px;
+    margin: 10px 15px;
     align-self: center;
 }
 h1 {
@@ -45,7 +45,6 @@ h1 {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .section2 {
     margin-top: 0px;
@@ -55,8 +54,6 @@ h1 {
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
-    bottom: 200px;
 }
 .section2 > p {
     width: 50%;
@@ -66,7 +63,11 @@ h1 {
     text-align: right;
 }
 .section1-text {
-    width: 50%;
+    flex-shrink: 2;
+    z-index: -1;
+}
+.section1-text1 {
+    width: 90%;
 }
 .section1-text > p {
     padding-top: 30px;
@@ -79,6 +80,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    margin-left: 30px;
     width: 300px;
 }
 .flex-gallery {
@@ -121,6 +123,10 @@ h1 {
 }
 .in-gallery:hover {
     width: 200px;
+}
+.combo-container {
+    align-self: flex-end;
+    justify-self: flex-end;
 }
 p {
     font-size: 20px;
