@@ -19,9 +19,12 @@ h1 {
 .h1-container {
   position: relative;
   background-color: mintcream;
-  margin: -10px 0px 0px;
   border: 10px inset lavender;
   z-index: -5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h2 {
   text-align: center;
