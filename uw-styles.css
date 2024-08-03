@@ -58,6 +58,7 @@ h1 {
     text-align: right;
     position: relative;
     left: 80px;
+    top: 20px;
 }
 .section1-text {
     flex-shrink: 2;
