@@ -1,0 +1,65 @@
+body {
+    font-family: Avenir, "Avenir Next LT Pro", sans-serif;
+}
+.top-container {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.back {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    background-color: darkblue;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    padding: 25px 10px;
+    margin: 10px 15px;
+    align-self: center;
+}
+.back:hover {
+    background-color: blanchedalmond;
+}
+h1 {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: -20px;
+}
+.h1-container > p {
+    margin: -10px 0px;
+}
+.code-link {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+.bracket {
+    font-size: 50px;
+    padding: 0px 5px;
+    position: relative;
+    top: 5px;
+}
+.h1-container {
+    background-color: blanchedalmond;
+    border: darkblue 10px solid;
+    border-radius: 20px;
+    padding: 0px 20px 30px 20px;
+    margin: 20px 20px 0px 20px;
+    width: fit-content;
+    text-align: center;
+}
+a:link {
+    color: lightseagreen;
+}
+a:visited {
+    color: darkseagreen;
+}
+a:active {
+    color: lightseagreen;
+}
+a:hover {
+  color: orchid;
+}

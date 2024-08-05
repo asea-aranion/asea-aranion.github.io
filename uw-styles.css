@@ -1,42 +1,12 @@
-body {
-    font-family: Avenir, "Avenir Next LT Pro", sans-serif;
+.back {
+    background-color: beige;
 }
-.background {
+.back:hover {
     background-color: azure;
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    rotate: -45deg;
-    z-index: -10;
-    overflow: hidden;
 }
 .h1-container {
-    display: flex;
-    margin-top: 20px;
-}
-a {
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 50px;
-    background-color: beige;
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    align-content: center;
-    padding: 25px 10px;
-    margin: 10px 15px;
-    align-self: center;
-}
-h1 {
-    font-size: 40px;
-    background-color: powderblue;
-    border: beige 10px solid;
-    border-radius: 20px;
-    padding: 40px;
-    margin: 0px;
-    width: fit-content;
+    background-color: azure;
+    border-color: beige;
 }
 .container {
     margin-top: 0px;
@@ -54,10 +24,15 @@ h1 {
 .section1-text {
     width: 90%;
 }
+p {
+    font-size: 20px;
+    padding-top: 20px;
+}
 .section1 > p {
     padding-top: 30px;
     padding-bottom: 50px;
 }
+
 .img-gallery {
     display: flex;
     flex-direction: column;
@@ -132,8 +107,4 @@ h1 {
     position: relative;
     right: 40%;
     top: 20px;
-}
-p {
-    font-size: 20px;
-    padding-top: 20px;
 }

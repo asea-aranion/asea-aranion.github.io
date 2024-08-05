@@ -2,14 +2,17 @@
 <html>
     <head>
         <title>Underwater Clock</title>
+        <link rel="stylesheet" href="any-app-styles.css">
         <link rel="stylesheet" href="uw-styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="background"></div>
-        <div class="h1-container">
-            <a href="./index.html">< Back</a>
-            <h1>Underwater Clock</h1>
+        <div class="top-container">
+            <a href="./index.html" class="back">< Back</a>
+            <div class="h1-container">
+                <h1>Underwater Clock</h1>
+                <p><span class="bracket">[</span><a href="https://github.com/tidbyt/community/tree/main/apps/underwaterclock" class="code-link" target="_blank">Source Code</a><span class="bracket">]</span></p>
+            </div>
         </div>
         <div class="container">
             <div class="img-gallery">
@@ -23,8 +26,9 @@
             </div>
             <div class="section1">
                 <div class="section1-text">
+                    
                     <p>The frames of the app's animations are drawn from 24 64x32 pixel images stored in its code in base64.</p>
-                    <p>It compiles the images corresponding to 2 hours before, 1 hour before, and the current hour into an animation, then pauses on the final scene.</p>
+                    <p>It compiles the images corresponding to 2 hours before, 1 hour before, and the current hour into an animation, then calculates the duration of the final scene based on the Tidbyt user's chosen app duration.</p>
                 </div>
                 <div class="section2">
                     <p>Then, the fish, shark, and seagrass added in an April update get to shine!</p>
