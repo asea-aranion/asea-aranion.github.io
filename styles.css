@@ -67,7 +67,7 @@ img {
   z-index: inherit;
   position: relative;
   object-fit: cover;
-  object-position: 100% 0%;
+  object-position: 0% 0%;
 }
 .app:hover .apptext {
   background-position-y: bottom;
