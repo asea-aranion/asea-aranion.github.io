@@ -1,12 +1,11 @@
 .back {
-    background-color: steelblue;
+    background-color: lightcyan;
 }
 .back:hover {
     background-color: lavender;
 }
 .h1-container {
-    background-color: lavender;
-    border-color: steelblue;
+    background-color: transparent;
 }
 .container {
     text-align: left;
@@ -15,4 +14,6 @@
 .coming-soon {
     color: steelblue;
     font-weight: bold;
+    font-size: 24px;
+    padding-left: 160px;
 }

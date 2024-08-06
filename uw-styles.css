@@ -2,11 +2,15 @@
     background-color: beige;
 }
 .back:hover {
-    background-color: azure;
+    background-color: powderblue;
 }
 .h1-container {
-    background-color: azure;
+    background-color: powderblue;
     border-color: beige;
+}
+.h1-cover {
+    background-color: beige;
+    top: 35%;
 }
 .container {
     margin-top: 0px;

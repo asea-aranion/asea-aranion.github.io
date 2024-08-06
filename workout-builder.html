@@ -5,35 +5,78 @@
         <link rel="stylesheet" href="any-app-styles.css">
         <link rel="stylesheet" href="wb-styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
     </head>
     <body>
         <div class="top-container">
             <a href="./index.html" class="back">< Back</a>
             <div class="h1-container">
                 <h1>Workout Builder</h1>
+                <div class="h1-cover"></div>
             </div>
         </div>
         <div class="container">
+            <script src="any-app-script.js"></script>
             <p class="coming-soon">Coming September 2024!</p>
-            <p>
-                With Workout Builder, you can create and customize your own exercise routines, 
-                track any weights you use, 
-                and see how far you've come by viewing your workout history.
-            </p>
-            <p>
-                You can customize your routines in Workout Builder down to the second. 
-                After adding your moves and rest periods to a block, you can set the block to repeat up to 10 times.
-                You can even add to or subtract from a move or rest's duration or rep count on each repetition!
-                Custom colors let you find your look in every area of the app.
-            </p>
-            <p>
-                Workout Builder is mainly built on SwiftUI. 
-                It's designed with responsiveness and accessibility in mind, supporting Dynamic Type and VoiceOver.
-            </p>
-            <p>All of your workout data is persisted across app launches with SwiftData. 
-                Objects representing your created workouts and history are stored and updated in your device's storage while you use the app.
-                Then, the next time you view your list of workouts or the weights you've used on a certain move, they can be queried, sorted, displayed, and edited once again.
-            </p>
+            <div class="button-container">
+                <button id="spin1" class="spin" style="rotate: -90deg;">►</button>
+                <div class="slide-container">
+                    <div class="background"></div>
+                    <p>
+                        With Workout Builder, you can create and customize your own exercise routines, 
+                        track any weights you use, 
+                        and see how far you've come by viewing your workout history.
+                    </p>
+                    <div class="slide-cover" id="cover1" style="width: 0%;">
+                        <h2>Intro</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="spin2" class="spin">►</button>
+                <div class="slide-container">
+                    <div class="background"></div>
+                    <p>
+                        You can customize your routines in Workout Builder down to the second. 
+                        After adding your moves and rest periods to a block, you can set the block to repeat up to 10 times.
+                        You can even add to or subtract from a move or rest's duration or rep count on each repetition!
+                        Custom colors let you find your look in every area of the app.
+                    </p>
+                    <div class="slide-cover" id="cover2">
+                        <h2>Customization</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="spin3" class="spin">►</button>
+                <div class="slide-container">
+                    <div class="background"></div>
+                    <p>
+                        Workout Builder is mainly built on SwiftUI. 
+                        It's designed with responsiveness and accessibility in mind, supporting Dynamic Type and VoiceOver.
+                    </p>
+                    <p>
+                        All of your workout data is persisted across app launches with SwiftData. 
+                        Objects representing your created workouts and history are stored and updated in your device's storage while you use the app.
+                        Then, the next time you view your list of workouts or the weights you've used on a certain move, they can be queried, sorted, displayed, and edited once again.
+                    </p>
+                    <div class="slide-cover" id="cover3">
+                        <h2>Design</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="button-container">
+                <button id="spin4" class="spin">►</button>
+                <div class="slide-container">
+                    <div class="background"></div>
+                    <p>
+                        All of your workout data is persisted across app launches with SwiftData. 
+                        Objects representing your created workouts and history are stored and updated in your device's storage while you use the app.
+                        Then, the next time you view your list of workouts or the weights you've used on a certain move, they can be queried, sorted, displayed, and edited once again.
+                    </p>
+                    <div class="slide-cover" id="cover4"></div>
+                </div>
+            </div> -->
         </div>
     </body>
 </html>
