@@ -2,15 +2,24 @@
     background-color: beige;
 }
 .back:hover {
-    background-color: powderblue;
+    background-color: rgb(156, 209, 246);
 }
 .h1-container {
-    background-color: powderblue;
+    background-color: rgb(156, 209, 246);
     border-color: beige;
 }
 .h1-cover {
     background-color: beige;
     top: 38%;
+}
+.spin {
+    background-color: rgb(156, 209, 246);
+}
+.slide-cover {
+    background-color: rgb(156, 209, 246);
+}
+.background {
+    background-color: beige;
 }
 .container {
     margin-top: 0px;
