@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="any-app-styles.css">
         <link rel="stylesheet" href="uw-styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        
     </head>
     <body>
         <div class="top-container">
@@ -16,6 +18,7 @@
             </div>
         </div>
         <div class="container">
+            
             <div class="img-gallery">
                 <div class="flex-gallery">
                     <div class="right-border"></div>
@@ -25,20 +28,35 @@
                 </div>
                 <img class="big-gif" src="./underwater_clock_2.gif" alt="A pixelated animation of a clock underwater at 11:24am">
             </div>
-            <div class="section1">
-                <div class="section1-text">
+                <div class="in-flex-container">
                     
-                    <p>The frames of the app's animations are drawn from 24 64x32 pixel images stored in its code in base64.</p>
-                    <p>It compiles the images corresponding to 2 hours before, 1 hour before, and the current hour into an animation, then calculates the duration of the final scene based on the Tidbyt user's chosen app duration.</p>
-                </div>
-                <div class="section2">
-                    <p>Then, the fish, shark, and seagrass added in an April update get to shine!</p>
-                    <div class="combo-container">
-                        <img class="combo" src="./big-combo.png" alt="A pixelated drawing of a shark, seagrass, and two fish">
+                    <div class="button-container">
+                        <button id="spin1" class="spin" style="rotate: 90deg;">►</button>
+                        <div class="slide-container">
+                            <div class="background"></div>
+                                <p>The frames of the app's animations are drawn from 24 64x32 pixel images stored in its code in base64.</p>
+                                <p>It compiles the images corresponding to 2 hours before, 1 hour before, and the current hour into an animation, then calculates the duration of the final scene based on the Tidbyt user's chosen app duration.</p>
+                            <div class="slide-cover" id="cover1" style="width: 0%;">
+                                <h2>Design</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="button-container">
+                        <button id="spin2" class="spin">►</button>
+                        <div class="slide-container">
+                            <div class="background"></div>
+                            <p>Then, the fish, shark, and seagrass added in an April update get to shine!</p>
+                            <div class="slide-cover" id="cover2">
+                                <h2>April Update</h2>
+                            </div>
+                            <div class="img-container" id="image2-cont">
+                                <img id="image2" class="combo" src="./big-combo.png" alt="A pixelated drawing of a shark, seagrass, and two fish">
+                                <div class="img-container-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="uw-script.js"></script>
             </div>
-            
         </div>
         
     </body>

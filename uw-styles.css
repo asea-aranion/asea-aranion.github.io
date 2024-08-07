@@ -10,7 +10,7 @@
 }
 .h1-cover {
     background-color: beige;
-    top: 35%;
+    top: 38%;
 }
 .container {
     margin-top: 0px;
@@ -21,22 +21,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.section1 {
+.in-flex-container {
     flex-basis: 600px;
-    z-index: -1;
 }
 .section1-text {
     width: 90%;
 }
 p {
     font-size: 20px;
-    padding-top: 20px;
 }
-.section1 > p {
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
 .img-gallery {
     display: flex;
     flex-direction: column;
@@ -89,26 +82,7 @@ p {
 .in-gallery:hover {
     width: 200px;
 }
-.section2 {
-    margin-top: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-.section2 > p {
-    text-align: right;
-}
-.combo-container {
-    align-self: flex-end;
-    justify-self: flex-end;
-    position: relative;
-}
 .combo {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    right: 40%;
-    top: 20px;
+    width: auto;
+    height: auto;
 }
