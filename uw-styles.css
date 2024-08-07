@@ -12,6 +12,11 @@
     background-color: beige;
     top: 38%;
 }
+@media screen and (max-width: 570px) {
+    .h1-cover {
+        top: 53%;
+    }
+}
 .spin {
     background-color: rgb(156, 209, 246);
 }
@@ -94,4 +99,7 @@ p {
 .combo {
     width: auto;
     height: auto;
+}
+.img-container-bar {
+    background-color: beige;
 }
