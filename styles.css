@@ -29,7 +29,7 @@ h2 {
   color: steelblue;
   padding: 20px 0px;
   background-color: whitesmoke;
-  margin: -1px -20px 20px;
+  margin: 0px -20px 20px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -46,12 +46,17 @@ h3 {
 .h3-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .h3-container {
+    flex-direction: column;
+  }
 }
 i {
   padding: 0px 10px;
