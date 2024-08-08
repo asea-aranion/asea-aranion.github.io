@@ -53,6 +53,9 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+i {
+  padding: 0px 10px;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
