@@ -96,10 +96,6 @@ p {
 .in-gallery:hover {
     width: 200px;
 }
-.combo {
-    width: auto;
-    height: auto;
-}
 .img-container-bar {
     background-color: beige;
 }

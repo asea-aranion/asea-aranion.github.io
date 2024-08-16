@@ -2,9 +2,11 @@ window.addEventListener('load', loaded, false);
 
 function loaded() {
     const spin1 = document.getElementById('spin1');
-    const cover1 = document.getElementById('cover1');
     const spin2 = document.getElementById('spin2');
+    const spin3 = document.getElementById('spin3');
+    const cover1 = document.getElementById('cover1');
     const cover2 = document.getElementById('cover2');
+    const cover3 = document.getElementById('cover3');
     const cont2 = document.getElementById('cont2');
 
     const image2Cont = document.getElementById('image2-cont');
@@ -26,8 +28,18 @@ function loaded() {
         } else {
             spin2.style.rotate = '90deg';
             cover2.style.width = '0%';
-            image2Cont.style.height = '128px';
-            cont2.style.marginBottom = '248px';
+            image2Cont.style.height = '450px';
+            cont2.style.marginBottom = '550px';
         }
     }
+    spin3.onclick = function() {
+        if (spin3.style.rotate == '90deg') {
+            spin3.style.rotate = '0deg';
+            cover3.style.width = '100%';
+        } else {
+            spin3.style.rotate = '90deg';
+            cover3.style.width = '0%';
+        }
+    }
+    
 }

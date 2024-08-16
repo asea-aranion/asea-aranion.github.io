@@ -17,3 +17,9 @@
     font-size: 24px;
     padding-left: 160px;
 }
+.open-img {
+    height: 90%;
+    width: auto;
+    position: relative;
+    bottom: 10px;
+}
