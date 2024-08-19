@@ -41,5 +41,23 @@ function loaded() {
             cover3.style.width = '0%';
         }
     }
-    
+    const appImg = document.getElementById('app-img');
+
+    const appButton1 = document.getElementById('app-button-1');
+    const appButton2 = document.getElementById('app-button-2');
+    const appButton3 = document.getElementById('app-button-3');
+    const appButton4 = document.getElementById('app-button-4');
+
+    appButton1.onclick = function() {
+        appImg.src = './applist.png';
+    }
+    appButton2.onclick = function() {
+        appImg.src = './apprun.png';
+    }
+    appButton3.onclick = function() {
+        appImg.src = './apphistory.png';
+    }
+    appButton4.onclick = function() {
+        appImg.src = './appsettings.png';
+    }
 }

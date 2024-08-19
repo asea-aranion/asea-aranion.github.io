@@ -15,11 +15,50 @@
     color: steelblue;
     font-weight: bold;
     font-size: 24px;
-    padding-left: 160px;
+    text-align: center;
+}
+.interactive-app {
+    margin: 40px 0px 80px 0px;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.app-img-holder {
+    margin: auto;
+    height: 100%;
+    width: fit-content;
+}
+.app-button-holder {
+    position: relative;
+    bottom: 90px;
+    z-index: 5;
+    margin: auto;
+    width: fit-content;
+}
+.app-button {
+    margin: 0px 10px;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(100, 100, 100, 0.4);
+    border-radius: 100%;
+    padding: 10px 18px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+}
+#app-img {
+    object-fit: cover;
 }
 .open-img {
     height: 90%;
     width: auto;
     position: relative;
     bottom: 10px;
+}
+.try-me {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: violet;
 }
