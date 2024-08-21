@@ -7,6 +7,11 @@
 .h1-container {
     background-color: transparent;
 }
+@media screen and (max-width: 570px) {
+    .h1-cover {
+        top: 61%;
+    }
+}
 .container {
     text-align: left;
     font-size: 20px;
