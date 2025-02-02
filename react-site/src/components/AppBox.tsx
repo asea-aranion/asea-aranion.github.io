@@ -3,9 +3,11 @@ import React from 'react';
 interface AppBoxProps {
 	imgSrc: string,
 	color: string,
+	color2: string,
 	appName: string,
 	appLink: string,
-	appDesc: string
+	appDesc: string,
+	appLang: string
 }
 
 const AppBox = (props: AppBoxProps) => {
@@ -17,7 +19,11 @@ const AppBox = (props: AppBoxProps) => {
         <div class="appcover" style={{backgroundColor: props.color}}></div>
         <div class="apptext">
           	<a href={props.appLink} class="appname">{props.appName}</a>
-          	<p class="appdesc">{props.appDesc}</p>
+          	<p class="appdesc" style={{color: props.color2}}>
+				<span style={{fontStyle: "italic"}}>{props.appLang}</span>
+				<i class="fa-solid fa-ellipsis-vertical"></i> 
+				{props.appDesc}
+			</p>
         </div>
       </div>
 	);

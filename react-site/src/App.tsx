@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import AppBox from './components/AppBox.tsx';
 import ucGif from './underwater_clock.gif';
+import packet from './packet.png';
 
 function App() {
   return (
@@ -14,11 +15,13 @@ function App() {
       			<h3>  <i class="fa-solid fa-diamond"></i>  </h3>
       			<h3>asea-aranion on github</h3>
     		</div>
-		<h3>Currently in development</h3>
     	</div>
+		<h2>Check out the apps I make!</h2>
 		<div class="flex-container">
-			<AppBox imgSrc={ucGif} color="rgb(156, 209, 246)" 
-			appName="Underwater Clock" appLink="." appDesc="for Tidbyt devices"></AppBox>
+			<AppBox imgSrc={ucGif} color="rgb(156, 209, 246)" color2="rgb(102, 112, 172)" 
+			appName="Underwater Clock" appLink="." appDesc="for Tidbyt devices" appLang="Starlark"></AppBox>
+			<AppBox imgSrc={packet} color="rgb(212, 247, 157)" color2="rgb(114, 182, 156)"
+			appName="Packet" appLink="." appDesc="for iOS and iPadOS devices" appLang="Swift"></AppBox>
 		</div>
 		
 	</div>
