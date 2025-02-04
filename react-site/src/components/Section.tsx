@@ -24,7 +24,7 @@ const Section = (props: SectionProps) => {
 			</div>
 			<div class="section-content" style={{
 				backgroundColor: props.backgroundColor, 
-				height: isOpen ? "70vh" : "0px"
+				height: isOpen ? "900px" : "0px"
 				}}>
 				{props.paragraphs.map((paragraph: string) => {
 					return (<p class="section-paragraph">{paragraph}</p>);

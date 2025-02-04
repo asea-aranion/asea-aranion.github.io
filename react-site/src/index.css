@@ -238,13 +238,13 @@
 	width: 95vw;
 	justify-content: space-around;
 	align-items: flex-start;
-	min-height: 100vh;
+	min-height: max-content;
 	margin-bottom: 30vh;
   }
   .section {
 	width: 80vh;
 	position: relative;
-	margin: 5vh 0px;
+	margin: 5vh 0px 20vh;
 	height: max-content;
   }
   .section-title-and-button {
@@ -256,10 +256,10 @@
 	background-color: aquamarine;
 	border-radius: 20px;
 	font-size: 30px;
-	padding: 40px 30px;
+	padding: 30px;
 	margin: 0px;
 	box-sizing: border-box;
-	height: 12vh;
+	height: 14vh;
   }
   .section-content {
 	align-self: center;
@@ -277,8 +277,8 @@
 	border: none;
 	border-radius: 100%;
 	box-sizing: border-box;
-	padding: 20px;
-	font-size: 32px;
+	padding: 15px;
+	font-size: 28px;
 	background-color: aquamarine;
 	margin-top: 2vh;
 	transition: rotate 0.5s ease-in-out;
