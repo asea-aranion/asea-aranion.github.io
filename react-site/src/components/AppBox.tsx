@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface AppBoxProps {
 	imgSrc: string,
@@ -11,6 +12,9 @@ interface AppBoxProps {
 }
 
 const AppBox = (props: AppBoxProps) => {
+
+	const navigate = useNavigate();
+
 	return (
 		<div class="app">
         	<div class="img-container">
@@ -18,7 +22,10 @@ const AppBox = (props: AppBoxProps) => {
         	</div>
         <div class="appcover" style={{backgroundColor: props.color}}></div>
         <div class="apptext">
-          	<a href={props.appLink} class="appname">{props.appName}</a>
+          	<button onClick={() => navigate(props.appLink)} class="appname">
+				<span class="underline">{props.appName}</span>
+				<i class="fa-solid fa-chevron-right"></i>
+			</button>
           	<p class="appdesc" style={{color: props.color2}}>
 				<span style={{fontStyle: "italic"}}>{props.appLang}</span>
 				<i class="fa-solid fa-ellipsis-vertical"></i> 

@@ -5,6 +5,7 @@ import ucGif from './underwater_clock.gif';
 import packet from './packet.png';
 
 function App() {
+
   return (
 	<div>
     	<div class="h1-container">
@@ -19,9 +20,9 @@ function App() {
 		<h2>Check out the apps I make!</h2>
 		<div class="flex-container">
 			<AppBox imgSrc={ucGif} color="rgb(156, 209, 246)" color2="rgb(102, 112, 172)" 
-			appName="Underwater Clock" appLink="." appDesc="for Tidbyt devices" appLang="Starlark"></AppBox>
+			appName="Underwater Clock" appLink="/underwaterclock" appDesc="for Tidbyt devices" appLang="Starlark"></AppBox>
 			<AppBox imgSrc={packet} color="rgb(212, 247, 157)" color2="rgb(114, 182, 156)"
-			appName="Packet" appLink="." appDesc="for iOS and iPadOS devices" appLang="Swift"></AppBox>
+			appName="Packet" appLink="/packet" appDesc="for iOS and iPadOS devices" appLang="Swift"></AppBox>
 		</div>
 		
 	</div>
