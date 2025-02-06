@@ -88,11 +88,37 @@
   }
   @media screen and (max-width: 1200px) {
 	.app {
-		flex-basis: 90vw !important;
-		height: 56.25vw !important;
+		flex-basis: 80vw !important;
+		height: 50vw !important;
+	}
+	.appname {
+		top: calc(42vw - 20px) !important;
+	}
+	.app:hover .appname {
+		top: calc(37vw - 20px) !important;
+	}
+	.appcover {
+		top: calc(40vw - 20px) !important;
+	}
+	.app:hover .appcover {
+		top: 0vw !important;
+	}
+	.app:hover .appdesc {
+		top: calc(41vw - 20px) !important;
 	}
 	body {
       height: max-content !important;
+	}
+  }
+  @media screen and (max-width: 800px) {
+	.app:hover .appname {
+		top: 5vw !important;
+	}
+	.app:hover .appdesc {
+		top: 12vw !important;
+	}
+	.appname {
+		top: calc(42vw - 25px) !important;
 	}
   }
   .img-container {
@@ -116,10 +142,10 @@
 	top: 0px;
   }
   .app:hover .appdesc {
-	top: 80%;
+	top: 20vw;
   }
   .app:hover .appname {
-	bottom: 15%;
+	top: 18vw;
   }
   .apptext {
 	z-index: 10;
@@ -137,15 +163,15 @@
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 78%;
+	top: 20vw;
 	left: 0px;
 	transition: top 0.3s ease-in-out;
   }
   .appname {
 	font-size: 28px;
 	position: absolute;
-	bottom: 6%;
-	transition: bottom 0.3s ease-in-out;
+	top: 21vw;
+	transition: top 0.3s ease-in-out;
 	left: 20px;
 	font-weight: bold;
 	z-index: inherit;
@@ -215,6 +241,14 @@
   }
   .apppage-bigimage:hover {
 	width: 45vw;
+  }
+  @media screen and (max-width: 1200px) {
+	.apppage-bigimage {
+		width: 80vw;
+	}
+	.apppage-bigimage:hover {
+		width: 85vw;
+	}
   }
   .codelinks-container {
 	display: flex;
