@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0cfba59.css",
+    "main.css": "/static/css/main.e0d31f04.css",
     "main.js": "/static/js/main.ab42452e.js",
     "static/media/packet.png": "/static/media/packet.42301f95928987e85898.png",
     "static/media/coral-glow.gif": "/static/media/coral-glow.6389db6fde9af3024cc0.gif",
     "static/media/underwater_clock.gif": "/static/media/underwater_clock.193c20c51f3746b1d232.gif",
     "index.html": "/index.html",
-    "main.e0cfba59.css.map": "/static/css/main.e0cfba59.css.map",
+    "main.e0d31f04.css.map": "/static/css/main.e0d31f04.css.map",
     "main.ab42452e.js.map": "/static/js/main.ab42452e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0cfba59.css",
+    "static/css/main.e0d31f04.css",
     "static/js/main.ab42452e.js"
   ]
 }
