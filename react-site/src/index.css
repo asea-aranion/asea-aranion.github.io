@@ -230,7 +230,7 @@
   .apppage-bigimage-container {
 	display: flex;
 	justify-content: center;
-  }
+  } 
   .apppage-bigimage {
 	width: 40vw;
 	margin: 5vh 0px;
@@ -293,7 +293,7 @@
 	padding: 30px;
 	margin: 0px;
 	box-sizing: border-box;
-	height: 14vh;
+	height: 120px;
   }
   .section-content {
 	align-self: center;
@@ -303,7 +303,7 @@
 	border-radius: 20px;
 	font-size: 24px;
 	box-sizing: border-box;
-	padding: 12vh 40px 20px;
+	padding: 120px 40px 20px;
 	overflow: hidden;
   }
   .section-button {
@@ -311,11 +311,13 @@
 	border: none;
 	border-radius: 100%;
 	box-sizing: border-box;
-	padding: 15px;
 	font-size: 28px;
 	background-color: aquamarine;
-	margin-top: 2vh;
+	margin-top: 3vh;
 	transition: rotate 0.5s ease-in-out;
+  }
+  .section-button i {
+	padding: 18px 20px;
   }
   .section-images {
 	margin: auto;
