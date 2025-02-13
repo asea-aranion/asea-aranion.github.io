@@ -253,7 +253,7 @@
   .codelinks-container {
 	display: flex;
 	flex-flow: row wrap;
-	width: 90vw;
+	width: 50vw;
 	justify-content: space-around;
 	margin: auto;
   }
@@ -293,7 +293,7 @@
 	padding: 30px;
 	margin: 0px;
 	box-sizing: border-box;
-	height: 120px;
+	height: 100px;
   }
   .section-content {
 	align-self: center;
